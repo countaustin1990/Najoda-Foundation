@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [location]); // location changes when the route changes
 
   return (
-    <nav className="bg-gradient-to-r from-blue-900 to-indigo-900 dark:bg-gray-900 px-3">
+    <nav className="bg-gray-200 px-3">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-2">
           <img
